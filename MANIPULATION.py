@@ -32,3 +32,57 @@ print(df)
 df=df.drop("Experience",axis=1)
 print("\n Dataframe after deleting the  experience col")
 print(df)
+
+
+
+output:
+Original DataFrame
+   Name  Age    Country  Salary
+0  John   25        USA   50000
+1  Emma   30     Canada   60000
+2  Sant   28      India  550000
+3  Lisa   32         UK   70000
+4   Tom   27  Australia   52000 
+
+Name and age colums
+   Name  Age
+0  John   25
+1  Emma   30
+2  Sant   28
+3  Lisa   32
+4   Tom   27 
+
+
+ Sorted dataframe(by salary in descending order)
+   Name  Age    Country  Salary
+2  Sant   28      India  550000
+3  Lisa   32         UK   70000
+1  Emma   30     Canada   60000
+4   Tom   27  Australia   52000
+0  John   25        USA   50000
+
+ Average salary 156400.0
+
+ Dataframe with added exprience
+   Name  Age    Country  Salary  Experience
+0  John   25        USA   50000           3
+1  Emma   30     Canada   60000           6
+2  Sant   28      India  550000           4
+3  Lisa   32         UK   70000           6
+4   Tom   27  Australia   52000           5
+
+ Dataframe with updating emma's salary
+   Name  Age    Country  Salary  Experience
+0  John   25        USA   50000           3
+1  Emma   30     Canada   65000           6
+2  Sant   28      India  550000           4
+3  Lisa   32         UK   70000           6
+4   Tom   27  Australia   52000           5
+
+ Dataframe after deleting the  experience col
+   Name  Age    Country  Salary
+0  John   25        USA   50000
+1  Emma   30     Canada   65000
+2  Sant   28      India  550000
+3  Lisa   32         UK   70000
+4   Tom   27  Australia   52000
