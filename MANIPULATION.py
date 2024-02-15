@@ -3,7 +3,7 @@ data={
     'Name':['John','Emma','Sant','Lisa','Tom'],
     'Age':[25,30,28,32,27],
     'Country':['USA','Canada','India','UK','Australia'],
-    'Salary':[50000,60000,70000,80000,65000]
+    'Salary':[50000,60000,55000,70000,52000]
 }
 
 df=pd.DataFrame(data)
@@ -35,12 +35,13 @@ print(df)
 
 
 
+
 output:
 Original DataFrame
    Name  Age    Country  Salary
 0  John   25        USA   50000
 1  Emma   30     Canada   60000
-2  Sant   28      India  550000
+2  Sant   28      India   55000
 3  Lisa   32         UK   70000
 4   Tom   27  Australia   52000 
 
@@ -55,19 +56,19 @@ Name and age colums
 
  Sorted dataframe(by salary in descending order)
    Name  Age    Country  Salary
-2  Sant   28      India  550000
 3  Lisa   32         UK   70000
 1  Emma   30     Canada   60000
+2  Sant   28      India   55000
 4   Tom   27  Australia   52000
 0  John   25        USA   50000
 
- Average salary 156400.0
+ Average salary 57400.0
 
  Dataframe with added exprience
    Name  Age    Country  Salary  Experience
 0  John   25        USA   50000           3
 1  Emma   30     Canada   60000           6
-2  Sant   28      India  550000           4
+2  Sant   28      India   55000           4
 3  Lisa   32         UK   70000           6
 4   Tom   27  Australia   52000           5
 
@@ -75,7 +76,7 @@ Name and age colums
    Name  Age    Country  Salary  Experience
 0  John   25        USA   50000           3
 1  Emma   30     Canada   65000           6
-2  Sant   28      India  550000           4
+2  Sant   28      India   55000           4
 3  Lisa   32         UK   70000           6
 4   Tom   27  Australia   52000           5
 
@@ -83,6 +84,8 @@ Name and age colums
    Name  Age    Country  Salary
 0  John   25        USA   50000
 1  Emma   30     Canada   65000
-2  Sant   28      India  550000
+2  Sant   28      India   55000
 3  Lisa   32         UK   70000
 4   Tom   27  Australia   52000
+​
+'
